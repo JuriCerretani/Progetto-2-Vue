@@ -7,7 +7,7 @@
 </div>
 
 <!-- Consegna -->
-###Progetto
+### Progetto
 
 Ogni giorno da qualche parte nel mondo ha luogo un incendio.
 Può essere provocato da diverse cause sia naturali che per mano dell'uomo.
@@ -32,7 +32,7 @@ la mappa mostrerà solo i pin (gli incendi) di quella data.
 
 <!-- Bonus -->
 
-##Bonus
+## Bonus
 
 Vuoi una prova? Secondo te è più semplice trovare un bug in un codice
 complesso e articolato o in un codice elegante pulito ed essenziale?
@@ -50,7 +50,7 @@ Riuscirai con poco a scrivere il codice perfetto?
 
 <!-- Leaflet -->
 
-##Vue Leaflet
+## Vue Leaflet
 
 In questo progetto ho utilizzato la libreria Vue2Leaflet che mi
 ha permesso, con poche righe di codice, di visualizzare una
@@ -63,7 +63,7 @@ chiamata ajax
 
 <!-- Components -->
 
-##Components
+## Components
 
 Ho cercato di utilizzare meno Components possibili e sono riuscito ad utilizzarne principalmente due
 (esclusi i Components importati dalla libreria Leaflet) :
@@ -74,7 +74,7 @@ Ho cercato di utilizzare meno Components possibili e sono riuscito ad utilizzarn
 
 <!-- Conclusione -->
 
-##Conclusione
+## Conclusione
 
 Inizialmente quando ho letto la consegna di questo progetto mi ero spaventato,
 ma alla fine ho capito che con calma, ordine e determinazione risulta più semplice di quanto immaginassi.
