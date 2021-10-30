@@ -5,6 +5,7 @@
 
   <h3 align="center">Progetto Vue 2</h3>
 </div>
+<br />
 
 <!-- Consegna -->
 ### Progetto
@@ -29,6 +30,7 @@ Per ogni coordinata dovrai inserire un pin o marker su mappa.
 
 In più, selezionando una singola giornata tra 21 e il 28 agosto,
 la mappa mostrerà solo i pin (gli incendi) di quella data.
+<br />
 
 <!-- Bonus -->
 
@@ -47,6 +49,7 @@ componente.
 riducendo però drasticamente il numero di righe in ciascuno di essi.
 <br />
 Riuscirai con poco a scrivere il codice perfetto?
+<br />
 
 <!-- Leaflet -->
 
@@ -60,6 +63,7 @@ chiamata ajax
 <div align="center">
   <img src="img/map.png" alt="Map" width="400" height="200">
 </div>
+<br />
 
 <!-- Components -->
 
@@ -71,7 +75,7 @@ Ho cercato di utilizzare meno Components possibili e sono riuscito ad utilizzarn
 *Map : si occupa di implementare la mappa e fare la chiamata ajax al link fornito (125 righe)
 
 <!-- Aggiungi dimostrazioni -->
-
+<br />
 <!-- Conclusione -->
 
 ## Conclusione
