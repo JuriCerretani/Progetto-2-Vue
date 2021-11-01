@@ -73,7 +73,23 @@ Ho cercato di utilizzare meno Components possibili e sono riuscito ad utilizzarn
 (esclusi i Components importati dalla libreria Leaflet) :
 *Layout : che si occupa dell'aspetto grafico dell'applicazione , il suo scopo è puramente estetico (63 righe)
 *Map : si occupa di implementare la mappa e fare la chiamata ajax al link fornito (125 righe)
+</hr>
 
+La struttura dei componenti in Vue è riprodotta in questo modo: 
+</br>
+<div align="center">
+  <img src="src/assets/read_me_img/comp-tree.png" alt="Map" width="200" height="200">
+</div>
+</br>
+
+Nella struttura, Vue Leaflet ha fatto buona parte del lavoro. Infatti il Component Layout si occupa principalmente 
+di aggiungere un Header e importa il Component figlio Map che ha la funzione di inserire i pulsanti del range di giorni
+della settimana in questione e tramite la funzione setDate():
+  ```
+  setDate: function(date){
+      this.date = date;
+    }
+  ```
 <!-- Aggiungi dimostrazioni -->
 <br />
 <!-- Conclusione -->
