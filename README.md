@@ -77,9 +77,9 @@ Ho cercato di utilizzare meno Components possibili e sono riuscito ad utilizzarn
 
 La struttura dei componenti in Vue è riprodotta in questo modo: 
 </br>
-<div align="center">
-  <img src="src/assets/read_me_img/comp-tree.png" alt="Components Tree" height="200">
-</div>
+
+<img src="src/assets/read_me_img/comp-tree.png" alt="Components Tree" height="350">
+
 </br>
 
 Nella struttura, Vue Leaflet ha fatto buona parte del lavoro. Infatti il Component Layout si occupa principalmente 
