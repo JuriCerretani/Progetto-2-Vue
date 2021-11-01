@@ -1,7 +1,7 @@
 <!-- Logo -->
 <br />
 <div align="center">
-  <img src="img/fire-logo.png" alt="Logo" width="100" height="80">
+  <img src="src/assets/read_me_img/fire-logo.png" alt="Logo" width="100" height="80">
 
   <h3 align="center">Progetto Vue 2</h3>
 </div>
@@ -61,7 +61,7 @@ mappa sul mio sito e di poter visualizzare i ping ottenuti dalla
 chiamata ajax
 
 <div align="center">
-  <img src="img/map.png" alt="Map" width="400" height="200">
+  <img src="src/assets/read_me_img/map.png" alt="Map" width="400" height="200">
 </div>
 <br />
 
@@ -73,7 +73,42 @@ Ho cercato di utilizzare meno Components possibili e sono riuscito ad utilizzarn
 (esclusi i Components importati dalla libreria Leaflet) :
 *Layout : che si occupa dell'aspetto grafico dell'applicazione , il suo scopo è puramente estetico (63 righe)
 *Map : si occupa di implementare la mappa e fare la chiamata ajax al link fornito (125 righe)
+</hr>
 
+La struttura dei componenti in Vue è riprodotta in questo modo: 
+</br>
+<div align="center">
+  <img src="src/assets/read_me_img/comp-tree.png" alt="Components Tree" width="200" height="200">
+</div>
+</br>
+
+Nella struttura, Vue Leaflet ha fatto buona parte del lavoro. Infatti il Component Layout si occupa principalmente 
+di aggiungere un Header e importa il Component figlio Map che ha la funzione di inserire i pulsanti del range di giorni
+della settimana in questione e tramite la funzione setDate():
+  ```
+  setDate: function(date){
+      this.date = date;
+    }
+  ```
+Aggiornano la variabile date che filtra i markers sulla mappa tramite una v-if.
+Vue Leaflet viene importata dal componente e tramite un ciclo v-for crea n components quanti
+sono i markers nella variabile e li filtra tramite un v-if:
+  ```
+  <div class="map__container">
+    <l-map style="height: 600px; width: 100% " :zoom="zoom" :center="center">
+      <l-tile-layer :url="url" :attribution="attribution"></l-tile-layer>
+      <div v-for="marker in markers" :key="marker.longitude">
+        <div v-if="marker.date==date">
+          <l-marker :lat-lng="[marker.latitude , marker.longitude]"></l-marker>
+        </div>
+        <div v-else-if="date==''">
+          <l-marker :lat-lng="[marker.latitude , marker.longitude]"></l-marker>
+        </div>
+      </div>
+    </l-map>
+  </div>
+  ```
+ 
 <!-- Aggiungi dimostrazioni -->
 <br />
 <!-- Conclusione -->
