@@ -78,7 +78,7 @@ Ho cercato di utilizzare meno Components possibili e sono riuscito ad utilizzarn
 La struttura dei componenti in Vue è riprodotta in questo modo: 
 </br>
 <div align="center">
-  <img src="src/assets/read_me_img/comp-tree.png" alt="Map" width="200" height="200">
+  <img src="src/assets/read_me_img/comp-tree.png" alt="Components Tree" width="200" height="200">
 </div>
 </br>
 
@@ -90,6 +90,25 @@ della settimana in questione e tramite la funzione setDate():
       this.date = date;
     }
   ```
+Aggiornano la variabile date che filtra i markers sulla mappa tramite una v-if.
+Vue Leaflet viene importata dal componente e tramite un ciclo v-for crea n components quanti
+sono i markers nella variabile e li filtra tramite un v-if:
+  ```
+  <div class="map__container">
+    <l-map style="height: 600px; width: 100% " :zoom="zoom" :center="center">
+      <l-tile-layer :url="url" :attribution="attribution"></l-tile-layer>
+      <div v-for="marker in markers" :key="marker.longitude">
+        <div v-if="marker.date==date">
+          <l-marker :lat-lng="[marker.latitude , marker.longitude]"></l-marker>
+        </div>
+        <div v-else-if="date==''">
+          <l-marker :lat-lng="[marker.latitude , marker.longitude]"></l-marker>
+        </div>
+      </div>
+    </l-map>
+  </div>
+  ```
+ 
 <!-- Aggiungi dimostrazioni -->
 <br />
 <!-- Conclusione -->
