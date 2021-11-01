@@ -78,7 +78,7 @@ Ho cercato di utilizzare meno Components possibili e sono riuscito ad utilizzarn
 La struttura dei componenti in Vue è riprodotta in questo modo: 
 </br>
 <div align="center">
-  <img src="src/assets/read_me_img/comp-tree.png" alt="Components Tree" width="200" height="200">
+  <img src="src/assets/read_me_img/comp-tree.png" alt="Components Tree" height="200">
 </div>
 </br>
 
