@@ -1,7 +1,7 @@
 <!-- Logo -->
 <br />
 <div align="center">
-  <img src="img/fire-logo.png" alt="Logo" width="100" height="80">
+  <img src="src/assets/read_me_img/fire-icon.png" alt="Logo" width="100" height="80">
 
   <h3 align="center">Progetto Vue 2</h3>
 </div>
@@ -61,7 +61,7 @@ mappa sul mio sito e di poter visualizzare i ping ottenuti dalla
 chiamata ajax
 
 <div align="center">
-  <img src="img/map.png" alt="Map" width="400" height="200">
+  <img src="src/assets/read_me_img/map.png" alt="Map" width="400" height="200">
 </div>
 <br />
 
