@@ -1,13 +1,14 @@
 <!-- Logo -->
 <br />
 <div align="center">
-  <img src="images/fire-logo.png" alt="Logo" width="80" height="80">
+  <img src="img/fire-logo.png" alt="Logo" width="100" height="80">
 
   <h3 align="center">Progetto Vue 2</h3>
 </div>
+<br />
 
 <!-- Consegna -->
-###Progetto
+### Progetto
 
 Ogni giorno da qualche parte nel mondo ha luogo un incendio.
 Può essere provocato da diverse cause sia naturali che per mano dell'uomo.
@@ -29,10 +30,11 @@ Per ogni coordinata dovrai inserire un pin o marker su mappa.
 
 In più, selezionando una singola giornata tra 21 e il 28 agosto,
 la mappa mostrerà solo i pin (gli incendi) di quella data.
+<br />
 
 <!-- Bonus -->
 
-##Bonus
+## Bonus
 
 Vuoi una prova? Secondo te è più semplice trovare un bug in un codice
 complesso e articolato o in un codice elegante pulito ed essenziale?
@@ -47,10 +49,11 @@ componente.
 riducendo però drasticamente il numero di righe in ciascuno di essi.
 <br />
 Riuscirai con poco a scrivere il codice perfetto?
+<br />
 
 <!-- Leaflet -->
 
-##Vue Leaflet
+## Vue Leaflet
 
 In questo progetto ho utilizzato la libreria Vue2Leaflet che mi
 ha permesso, con poche righe di codice, di visualizzare una
@@ -58,12 +61,13 @@ mappa sul mio sito e di poter visualizzare i ping ottenuti dalla
 chiamata ajax
 
 <div align="center">
-  <img src="images/map.png" alt="Logo" width="400" height="200">
+  <img src="img/map.png" alt="Map" width="400" height="200">
 </div>
+<br />
 
 <!-- Components -->
 
-##Components
+## Components
 
 Ho cercato di utilizzare meno Components possibili e sono riuscito ad utilizzarne principalmente due
 (esclusi i Components importati dalla libreria Leaflet) :
@@ -71,10 +75,10 @@ Ho cercato di utilizzare meno Components possibili e sono riuscito ad utilizzarn
 *Map : si occupa di implementare la mappa e fare la chiamata ajax al link fornito (125 righe)
 
 <!-- Aggiungi dimostrazioni -->
-
+<br />
 <!-- Conclusione -->
 
-##Conclusione
+## Conclusione
 
 Inizialmente quando ho letto la consegna di questo progetto mi ero spaventato,
 ma alla fine ho capito che con calma, ordine e determinazione risulta più semplice di quanto immaginassi.
