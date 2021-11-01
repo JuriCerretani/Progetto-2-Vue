@@ -1,7 +1,7 @@
 <!-- Logo -->
 <br />
 <div align="center">
-  <img src="img/fire-logo.png" alt="Logo" width="100" height="80">
+  <img src="/src/assets/fire-logo.png" alt="Logo" width="100" height="80">
 
   <h3 align="center">Progetto Vue 2</h3>
 </div>
